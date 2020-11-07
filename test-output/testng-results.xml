@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6988" started-at="2020-11-06T01:54:03Z" finished-at="2020-11-06T01:54:10Z">
+  <suite name="Default suite" duration-ms="8995" started-at="2020-11-07T03:00:33Z" finished-at="2020-11-07T03:00:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6988" started-at="2020-11-06T01:54:03Z" finished-at="2020-11-06T01:54:10Z">
-      <class name="com.acti.base.DriverScript">
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.acti.base.DriverScript@5622fdf]" name="initBrowser" duration-ms="6938" started-at="2020-11-06T01:54:03Z" finished-at="2020-11-06T01:54:10Z">
+    <test name="Default test" duration-ms="8995" started-at="2020-11-07T03:00:33Z" finished-at="2020-11-07T03:00:42Z">
+      <class name="com.acti.testcase.TC01_LoginTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@146ba0ac]" name="preCondition" is-config="true" duration-ms="8029" started-at="2020-11-07T03:00:33Z" finished-at="2020-11-07T03:00:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initBrowser -->
-      </class> <!-- com.acti.base.DriverScript -->
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testLoginFunction()[pri:0, instance:com.acti.testcase.TC01_LoginTest@146ba0ac]" name="testLoginFunction" duration-ms="273" started-at="2020-11-07T03:00:41Z" finished-at="2020-11-07T03:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunction -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@146ba0ac]" name="postCondition" is-config="true" duration-ms="663" started-at="2020-11-07T03:00:41Z" finished-at="2020-11-07T03:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.acti.testcase.TC01_LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
